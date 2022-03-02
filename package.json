@@ -1,25 +1,25 @@
 {
-  "name": "action-javascript-action-template",
+  "name": "action-wait-for-ports",
   "version": "1.0.0",
-  "description": "An action to build from for javascript actions",
+  "description": "A github action to wait for ports to be available",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/catalystsquad/action-javascript-action-template.git"
+    "url": "git+https://github.com/catalystsquad/actions-wait-for-ports.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/catalystsquad/action-javascript-action-template/issues"
+    "url": "https://github.com/catalystsquad/action-wait-for-ports/issues"
   },
-  "homepage": "https://github.com/catalystsquad/action-javascript-action-template#readme",
+  "homepage": "https://github.com/catalystsquad/action-wait-for-ports#readme",
   "dependencies": {
     "@actions/core": "^1.6.0",
-    "@actions/github": "^5.0.0"
-  },
-  "devDependencies": {}
+    "@actions/github": "^5.0.0",
+    "tcp-port-used": "^1.0.2"
+  }
 }
