@@ -13,7 +13,7 @@ Greet someone and record the time
 <!-- start usage -->
 
 ```yaml
-- uses: swarm-io/action-javascript-action-template@undefined
+- uses: catalystsquad/action-javascript-action-template@undefined
   with:
     # Who to greet
     # Default: World
@@ -43,18 +43,16 @@ Greet someone and record the time
 on: [push]
 
 jobs:
-  hello_world_job:
+  wait-for-ports:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: Wait for ports to be available
     steps:
-      - name: Hello world action step
-        id: hello
-        uses: swarm-io/action-javascript-action-template@v1
+      - name: Wait for ports
+        uses: catalystsquad/actions-wait-for-ports@v1
         with:
-          who-to-greet: "Mona the Octocat"
-      # Use the output from the `hello` step
-      - name: Get the output time
-        run: echo "The time was ${{ steps.hello.outputs.time }}"
+          ports: 4000
+          max-wait: 300000
+          check-interval: 5000
 ```
 
 <!-- end examples -->
