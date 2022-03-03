@@ -48,7 +48,7 @@ jobs:
     name: Wait for ports to be available
     steps:
       - name: Wait for ports
-        uses: catalystsquad/actions-wait-for-ports@v1
+        uses: catalystsquad/action-wait-for-ports@v1
         with:
           ports: 4000
           max-wait: 300000
