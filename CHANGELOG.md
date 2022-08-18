@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/catalystsquad/action-wait-for-ports/compare/v1.0.0...v1.0.1) (2022-08-18)
+
+
+### Bug Fixes
+
+* bump @actions/core from 1.6.0 to 1.9.1 ([#3](https://github.com/catalystsquad/action-wait-for-ports/issues/3)) ([cef78f7](https://github.com/catalystsquad/action-wait-for-ports/commit/cef78f7f90b3c367da13047dbfe8df27c9b51f03))
+
 # 1.0.0 (2022-03-03)
 
 
