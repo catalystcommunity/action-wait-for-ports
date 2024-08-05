@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/catalystsquad/action-wait-for-ports.git"
+    "url": "git+https://github.com/catalystcommunity/action-wait-for-ports.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/catalystsquad/action-wait-for-ports/issues"
+    "url": "https://github.com/catalystcommunity/action-wait-for-ports/issues"
   },
-  "homepage": "https://github.com/catalystsquad/action-wait-for-ports#readme",
+  "homepage": "https://github.com/catalystcommunity/action-wait-for-ports#readme",
   "dependencies": {
     "@actions/core": "^1.9.1",
     "@actions/github": "^5.0.0",

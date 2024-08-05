@@ -13,7 +13,7 @@ Waits for ports to be available
 <!-- start usage -->
 
 ```yaml
-- uses: catalystsquad/action-wait-for-ports@undefined
+- uses: catalystcommunity/action-wait-for-ports@undefined
   with:
     # Comma separated list of ports to wait for
     ports: ""
@@ -57,7 +57,7 @@ jobs:
     name: Wait for ports to be available
     steps:
       - name: Wait for ports
-        uses: catalystsquad/action-wait-for-ports@v1
+        uses: catalystcommunity/action-wait-for-ports@v1
         with:
           ports: 4000
           max-wait: 300000
